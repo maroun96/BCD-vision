@@ -40,6 +40,9 @@ Be careful, these runs will take three hours each.
 
 If you only want to reproduce our plots, run the following commands:
 
+```
 python main.py --dataset MNIST --plot
 python main.py --dataset FMNIST --plot
-It will read our experiments results in .pkl files and reproduce our plots.
+```
+
+It will read our experiments results in the .pkl files and reproduce our plots.
