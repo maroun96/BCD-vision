@@ -36,3 +36,10 @@ To reproduce all our results, you need to run the code below. In addition to the
 python main.py --dataset MNIST --optim CD --lr 0.25 --epochs 100 --run_all
 python main.py --dataset FashionMNIST --optim CD --lr 0.25 --epochs 100 --run_all
 ```
+Be careful, these runs will take three hours each.
+
+If you only want to reproduce our plots, run the following commands:
+
+python main.py --dataset MNIST --plot
+python main.py --dataset FMNIST --plot
+It will read our experiments results in .pkl files and reproduce our plots.
