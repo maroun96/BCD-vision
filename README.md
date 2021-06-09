@@ -39,9 +39,9 @@ Below, you can find an exemple to run typical experiment. After every epoch, you
 python main.py --dataset MNIST --optim CD --lr 0.25 --n_block 1000 --batch_size 200
 ```
 
-## How ro reproduce our results ?
+## How to reproduce the results ?
 
-To reproduce all our results, you need to run the code below. In addition to the outpus listed above, it will also output a summary of all experiments at the end. You can find all plots in the `plots` folder.
+To reproduce the results, you need to run the code below. In addition to the outputs listed above, it will also output a summary of all experiments at the end. You can find all plots in the `plots` folder.
 
 ```
 python main.py --dataset MNIST --optim CD --lr 0.25 --epochs 100 --run_all
@@ -49,11 +49,11 @@ python main.py --dataset FashionMNIST --optim CD --lr 0.25 --epochs 100 --run_al
 ```
 Be careful, these runs will take three hours each.
 
-If you only want to reproduce our plots, run the following commands:
+If you only want to reproduce the plots, run the following commands:
 
 ```
 python main.py --dataset MNIST --plot
 python main.py --dataset FMNIST --plot
 ```
 
-It will read our experiments results in the .pkl files and reproduce our plots.
+This will read the experiments results in the .pkl files and reproduce the plots.
